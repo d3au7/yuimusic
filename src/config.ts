@@ -15,7 +15,7 @@ export default {
   searchEngine: process.env.SEARCH_ENGINE || (SearchEngine.YouTube as SearchEngine),
   maxPlaylistSize: parseInt(process.env.MAX_PLAYLIST_SIZE) || 100,
   botStatus: process.env.BOT_STATUS || 'idle', // online, idle, dnd, invisible
-  botActivity: process.env.BOT_ACTIVITY || '!y help', 'Yui`s Music', // set the bot activity
+  botActivity: process.env.BOT_ACTIVITY || 'YuiMusic', // set the bot activity
   maxQueueSize: parseInt(process.env.MAX_QUEUE_SIZE) || 100,
   owners: process.env.OWNERS?.split(','),
   database: process.env.DATABASE_URL,
